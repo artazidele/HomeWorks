@@ -40,7 +40,7 @@ print("My even numbers are: \(evenNumber)")
 
 var counter = 0
 var randomNumber: Int
-for _ in 1...100{
+for _ in 1... {
     randomNumber = Int.random(in: 1...100)
     counter += 1
     if randomNumber == 5 {
